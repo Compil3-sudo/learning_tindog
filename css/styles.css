@@ -7,6 +7,7 @@ h1 {
     font-size: 4rem;
     line-height: 1.5;
     font-weight: bold;
+    color: #fff;
 }
 
 h2 {
@@ -22,6 +23,14 @@ h3 {
 
 .container-fluid {
     padding: 3% 15% 7%;
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+}
+
+a.nav-link {
+    color: #fff;
 }
 
 nav.navbar {
@@ -92,4 +101,39 @@ a.nav-link {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 15%;
+}
+
+.cta-heading {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    width: 5%;
+}
+
+@media (max-width: 1300px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
 }
