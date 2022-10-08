@@ -1,9 +1,3 @@
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -26,8 +20,24 @@ h3 {
     font-size: 1.5rem;
 }
 
-.container-fluid {
+/* id # ; class .
+combine selectors: selector1 selector2; space between */
+/* selectr1.selector2 := more specific; 
+    look for selector1 like h1 that also has class of selector 2; */
+
+#title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 a.navbar-brand {
@@ -72,7 +82,6 @@ a.nav-link {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -121,8 +130,6 @@ a.nav-link {
 }
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
     padding: 5% 15%;
 }
 
