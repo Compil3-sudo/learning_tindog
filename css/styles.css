@@ -1,24 +1,29 @@
 #title {
     background-color: #ff4c68;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
-    line-height: 1.5;
-    font-weight: bold;
     color: #fff;
+    text-align: left;
 }
 
-h2 {
-    font-size: 3rem;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+}
+
+.title-heading {
+    font-size: 4rem;
     line-height: 1.5;
 }
 
 h3 {
     font-size: 1.5rem;
-    font-weight: bold;
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .container-fluid {
@@ -62,14 +67,17 @@ a.nav-link {
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .carousel-item {
@@ -96,7 +104,16 @@ a.nav-link {
 /* Pricing section */
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
@@ -118,7 +135,6 @@ a.nav-link {
 /* footer section */
 #footer {
     padding: 5% 15%;
-    text-align: center;
 }
 
 .social-icon {
